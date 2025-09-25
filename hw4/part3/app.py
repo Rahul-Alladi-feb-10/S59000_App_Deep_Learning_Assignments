@@ -52,4 +52,4 @@ gradio_app = gr.Interface(
 
 # Launch the app
 if __name__ == "__main__":
-    gradio_app.launch()
+    gradio_app.launch(share=True)
